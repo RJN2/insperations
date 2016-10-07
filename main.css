@@ -1,0 +1,132 @@
+﻿.container {
+    padding:10px;
+    background-color: rgb(239, 239, 238);
+    width:100%;
+}
+
+form {
+    overflow:hidden;
+}
+
+.page-header {
+    font-size:100px;
+}
+
+
+.dotted-text-area {
+    background-image: linear-gradient(0deg, transparent 7%, rgb(239, 239, 238) 0%), linear-gradient(90deg, rgba(50, 50, 50, 0.8) 20%, transparent 0%);
+    /*background-image: -webkit-linear-gradient(#4cff00 34px, #ff0000 36px);*/
+    /* background-image: -moz-linear-gradient(left, transparent 10px, transparent 10px), -moz-linear-gradient(right, transparent 10px, transparent 10px), -moz-linear-gradient(transparent 30px, #ccc 30px, #ccc 31px, transparent 31px);
+    background-image: -ms-linear-gradient(left, transparent 10px, transparent 10px), -ms-linear-gradient(right, transparent 10px, transparent 10px), -ms-linear-gradient(transparent 30px, #ccc 30px, #ccc 31px, transparent 31px);
+    background-image: -o-linear-gradient(left, transparent 10px, transparent 10px), -o-linear-gradient(right, transparent 10px, transparent 10px), -o-linear-gradient(transparent 30px, #ccc 30px, #ccc 31px, transparent 31px);
+    background-image: linear-gradient(left, transparent 10px, transparent 10px), linear-gradient(right, transparent 10px, transparent 10px), linear-gradient(transparent 30px, #ccc 30px, #ccc 31px, transparent 31px); */
+    background-size: 8px 1em;
+    background-repeat:repeat;
+    min-height:150px;
+    height:150px;
+    max-height:150px;
+    width:100%;
+    resize:none;
+    overflow:hidden;
+    line-height:1.1em;
+    padding:0;
+    outline:none;
+    box-shadow:none;
+}
+
+.row-fluid {
+    overflow:hidden;
+    margin-bottom:15px;
+}
+
+/* floating labels */
+
+.form-group {
+    padding:0;
+    outline:none;
+    box-shadow:none;
+}
+
+.floating-label-form-group {
+  margin-bottom: 0;
+  position: relative;
+  padding-bottom: 0.5em;
+  box-shadow:none;
+  outline:none;
+}
+
+.dotted-border {
+  background-image: linear-gradient(to right, rgba(50, 50, 50, 0.8) 20%, rgba(255, 255, 255, 0) 0%);
+  background-position: top;
+  background-size: 8px 2px;
+  background-repeat: repeat-x;
+  padding: 1px 0px;
+  margin-top:2px;
+}
+
+
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+  background-image: linear-gradient(0deg, transparent 7%, rgb(239, 239, 238) 0%), linear-gradient(90deg, rgba(50, 50, 50, 0.8) 30%, transparent 0%);
+  background-color:transparent;
+  background-size: 10px 1.1em;
+  background-repeat:repeat;
+  border: none;
+  border-radius: 0;
+  padding-left: 0;
+  padding-right: 0;
+  box-shadow: none !important;
+  position: relative;
+  z-index: 1;
+  font-size: 4em;
+  resize: none;
+  line-height:1.1em;
+  box-shadow:none;
+}
+  
+.floating-label-form-group label {
+  display: block;
+  position: relative;
+  top: 2em;
+  opacity: 0;
+  z-index: 0;
+  font-size: 1.1em;
+  line-height: 1.764705882em;
+  vertical-align: middle;
+  vertical-align: baseline;
+  margin: 0;
+  -webkit-transition: top 0.5s ease, opacity 0.5s ease;
+     -moz-transition: top 0.5s ease, opacity 0.5s ease;
+      -ms-transition: top 0.5s ease, opacity 0.5s ease;
+          transition: top 0.5s ease, opacity 0.5s ease;
+}
+
+.floating-label-form-group:not(:first-child) {
+  border-left: 1px solid #ccc;
+  padding-left: 14px;
+}
+
+.floating-label-form-group-with-value label {
+  top: 0;
+  opacity: 1;
+  text-transform:uppercase;
+}
+
+.floating-label-form-group-with-focus label {
+  color: black;
+}
+
+
+.form-control {
+    height:1.1em;
+    
+}
+
+.pull-down {
+    margin-bottom:5px;
+}
+
+.pull-down span {
+    font-size:1.8em;
+    padding-left:7px;
+}
